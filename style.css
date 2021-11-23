@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+  
 body {
     background-color:black;
     color:white;
@@ -12,7 +16,7 @@ h1{
 .maindiv{
     background-color: white;
     color: black;
-    width: 300px;
+    width: 450px;
     padding: 20px;
     border-radius: 25px;
     margin: auto;
@@ -26,3 +30,36 @@ footer{
 mark {
     font-size: 1.2em;
 }
+
+input[type=number], input[type=range]{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type=range]{
+    width: 70%;  
+  }
+  
+  label, select {
+    display: inline-block;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 16px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 16px;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
