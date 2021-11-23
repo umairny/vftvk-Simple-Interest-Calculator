@@ -63,3 +63,6 @@ input[type=number], input[type=range]{
     clear: both;
   }
   
+  #rate_val{
+      float: right;
+  }
